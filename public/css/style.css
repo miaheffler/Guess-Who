@@ -141,11 +141,58 @@ main {
     gap: 18px;
 }
 
+/* Individual character card */
 .profile-card {
-    padding: 10px;
-    border: 2px solid var(--turquoise);
-    margin: 15px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    text-align: center;
 }
+
+.profile-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Character name */
+.character-name {
+    color: var(--black);
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+/* Front and back card container */
+.card-inner {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 3px solid var(--black);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 4px 4px 0 var(--hot-pink);
+}
+
+/* Both sides of the card */
+.front-face,
+.back-face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.back-face {
+    transform: rotateY(180deg);
+}
+
+/* Character images */
+.front-face img,
+.back-face img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 /* Overall interaction sidebar */
 .game-interaction {
@@ -216,4 +263,17 @@ main {
     .characters {
         grid-template-columns: repeat(2, 1fr);
     }
+}
+
+.profile-card {
+    perspective: 1000px;
+}
+
+.card-inner {
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.profile-card.eliminated .card-inner {
+    transform: rotateY(180deg);
 }

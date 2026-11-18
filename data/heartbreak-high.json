@@ -1,16 +1,162 @@
-{
-    "id": 1,
-    "name": "Amerie",
-    "image": "/images/heartbreak-high/amerie.jpeg",
-    "hairColor": "Black",
-    "eyeColor": "Brown",
-    "accessories": ["Necklace", "Earrings"]
-}
-{
-    "id": 2,
-    "name": "Amerie",
-    "image": "/images/heartbreak-high/amerie.jpeg",
-    "hairColor": "Black",
-    "eyeColor": "Brown",
-    "accessories": ["Necklace", "Earrings"]
-}
+[
+    {
+        "id": 1,
+        "name": "Amerie",
+        "image": "/images/heartbreak-high/amerie.jpeg",
+        "hairColor": "black",
+        "eyeColor": "brown",
+        "accessories": ["earrings", "necklace"]
+    },
+    {
+        "id": 2,
+        "name": "Ant",
+        "image": "/images/heartbreak-high/ant.jpeg",
+        "hairColor": "black",
+        "eyeColor": "brown",
+        "accessories": ["hat", "necklace"]
+    },
+    {
+        "id": 3,
+        "name": "Cash",
+        "image": "/images/heartbreak-high/cash.jpeg",
+        "hairColor": "brown",
+        "eyeColor": "brown",
+        "accessories": []
+    },
+    {
+        "id": 4,
+        "name": "Chook",
+        "image": "/images/heartbreak-high/chook.jpeg",
+        "hairColor": "brown",
+        "eyeColor": "brown",
+        "accessories": ["hat", "necklace"]
+    },
+    {
+        "id": 5,
+        "name": "Darren",
+        "image": "/images/heartbreak-high/darren.jpeg",
+        "hairColor": "black",
+        "eyeColor": "brown",
+        "accessories": ["hat", "necklace"]
+    },
+    {
+        "id": 6,
+        "name": "Dusty",
+        "image": "/images/heartbreak-high/dusty.jpeg",
+        "hairColor": "black",
+        "eyeColor": "green",
+        "accessories": ["earrings", "necklace"]
+    },
+    {
+        "id": 7,
+        "name": "Harper",
+        "image": "/images/heartbreak-high/harper.jpeg",
+        "hairColor": "blonde",
+        "eyeColor": "blue",
+        "accessories": ["earrings", "necklace", "face piercings"]
+    },
+    {
+        "id": 8,
+        "name": "Jojo",
+        "image": "/images/heartbreak-high/jojo.jpeg",
+        "hairColor": "blonde",
+        "eyeColor": "brown",
+        "accessories": ["earrings"]
+    },
+    {
+        "id": 9,
+        "name": "Liam",
+        "image": "/images/heartbreak-high/liam.jpeg",
+        "hairColor": "blonde",
+        "eyeColor": "black",
+        "accessories": ["earrings", "necklace"]
+    },
+    {
+        "id": 10,
+        "name": "Malachai",
+        "image": "/images/heartbreak-high/malachai.jpeg",
+        "hairColor": "black",
+        "eyeColor": "black",
+        "accessories": ["earrings", "necklace"]
+    },
+    {
+        "id": 11,
+        "name": "Missy",
+        "image": "/images/heartbreak-high/missy.jpeg",
+        "hairColor": "black",
+        "eyeColor": "black",
+        "accessories": ["earrings", "necklace"]
+    },
+    {
+        "id": 12,
+        "name": "Nan",
+        "image": "/images/heartbreak-high/nan.jpeg",
+        "hairColor": "black",
+        "eyeColor": "black",
+        "accessories": ["earrings", "necklace"]
+    },
+    {
+        "id": 13,
+        "name": "Noah",
+        "image": "/images/heartbreak-high/noah.jpeg",
+        "hairColor": "black",
+        "eyeColor": "black",
+        "accessories": ["earrings", "necklace"]
+    },
+    {
+        "id": 14,
+        "name": "Quinni",
+        "image": "/images/heartbreak-high/quinni.jpeg",
+        "hairColor": "black",
+        "eyeColor": "black",
+        "accessories": ["earrings", "necklace"]
+    },
+    {
+        "id": 15,
+        "name": "Rowan",
+        "image": "/images/heartbreak-high/rowan.jpeg",
+        "hairColor": "black",
+        "eyeColor": "black",
+        "accessories": ["earrings", "necklace"]
+    },
+    {
+        "id": 16,
+        "name": "Sasha",
+        "image": "/images/heartbreak-high/sasha.jpeg",
+        "hairColor": "black",
+        "eyeColor": "black",
+        "accessories": ["earrings", "necklace"]
+    },
+    {
+        "id": 17,
+        "name": "Spider",
+        "image": "/images/heartbreak-high/spider.jpeg",
+        "hairColor": "black",
+        "eyeColor": "black",
+        "accessories": ["earrings", "necklace"]
+    },
+    {
+        "id": 18,
+        "name": "Taz",
+        "image": "/images/heartbreak-high/taz.jpeg",
+        "hairColor": "black",
+        "eyeColor": "black",
+        "accessories": ["earrings", "necklace"]
+    },
+    {
+        "id": 19,
+        "name": "Woodsy",
+        "image": "/images/heartbreak-high/woodsy.jpeg",
+        "hairColor": "black",
+        "eyeColor": "black",
+        "accessories": ["earrings", "necklace"]
+    },
+    {
+        "id": 20,
+        "name": "Zoe",
+        "image": "/images/heartbreak-high/zoe.jpeg",
+        "hairColor": "black",
+        "eyeColor": "black",
+        "accessories": ["earrings", "necklace"]
+    }
+]
