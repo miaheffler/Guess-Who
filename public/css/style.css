@@ -1,0 +1,219 @@
+/* Main color palette */
+:root {
+    --turquoise: #20D5C5;
+    --hot-pink: #FF4FA3;
+    --black: #171717;
+    --lavender: #D9C5FF;
+    --icy-blue: #DDFBFF;
+    --chrome: #C0C0C8;
+    --white: #FFFFFF;
+}
+
+/* Overall page */
+body {
+    margin: 0;
+    background-color: var(--icy-blue);
+    color: var(--black);
+    font-family: Arial, sans-serif;
+}
+
+/* Main heading */
+h1 {
+    color: var(--white);
+    text-align: center;
+    text-shadow: 2px 2px var(--turquoise);
+}
+
+/* Header */
+header {
+    background-color: var(--black);
+    padding: 20px;
+    border-bottom: 4px solid var(--turquoise);
+}
+
+/* Game buttons and collection dropdown */
+.game-controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.game-controls label,
+.game-controls select {
+    grid-column: 1 / -1;
+}
+
+/* Game buttons */
+button {
+    background-color: var(--turquoise);
+    color: var(--black);
+    border: 2px solid var(--white);
+    border-radius: 12px;
+    padding: 12px 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 3px 3px 0 var(--hot-pink);
+}
+
+button:hover {
+    background-color: var(--hot-pink);
+    box-shadow: 3px 3px 0 var(--turquoise);
+}
+
+/* Collection dropdown */
+.game-controls label {
+    color: var(--white);
+    text-align: center;
+    margin-top: 8px;
+}
+
+.game-controls select {
+    padding: 10px;
+    border: 2px solid var(--chrome);
+    border-radius: 10px;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 1rem;
+}
+
+
+/* Main page content */
+main {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+/* Mystery character section */
+.my-character {
+    background: linear-gradient(
+        135deg,
+        var(--turquoise),
+        var(--lavender),
+        var(--hot-pink)
+    );
+    border: 3px solid var(--black);
+    border-radius: 18px;
+    padding: 20px;
+    text-align: center;
+    max-width: 350px;
+    margin: 0 auto 30px;
+}
+
+/* Character image */
+.my-character img {
+    width: 180px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: 3px solid var(--white);
+    border-radius: 12px;
+}
+
+/* Board and interaction panel */
+.game-content {
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(260px, 1fr);
+    gap: 20px;
+    align-items: start;
+}
+
+/* Character board */
+.board {
+    background-color: var(--white);
+    border: 3px solid var(--black);
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 5px 5px 0 var(--turquoise);
+}
+
+/* Character board heading */
+.board h2 {
+    text-align: center;
+    text-shadow: 2px 2px var(--hot-pink);
+}
+
+/* Character grid */
+.characters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 18px;
+}
+
+.profile-card {
+    padding: 10px;
+    border: 2px solid var(--turquoise);
+    margin: 15px;
+}
+
+/* Overall interaction sidebar */
+.game-interaction {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Question and guess panels */
+.question-area,
+.guess-area {
+    background-color: var(--lavender);
+    border: 3px solid var(--black);
+    border-radius: 16px;
+    padding: 18px;
+    box-shadow: 4px 4px 0 var(--hot-pink);
+}
+
+/* Interaction panel headings */
+.question-area h3,
+.guess-area h3 {
+    text-align: center;
+}
+
+/* Guess input */
+.guess-area input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--chrome);
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.guess-area button {
+    display: block;
+    width: 85%;
+    margin: 12px auto;
+    padding: 16px;
+    font-size: 1.1rem;
+    background-color: var(--hot-pink);
+    border: 3px solid var(--black);
+    border-radius: 12px;
+    box-shadow: 4px 4px 0 var(--turquoise);
+}
+
+.guess-area button:hover {
+    background-color: var(--turquoise);
+    transform: scale(1.04);
+}
+
+@media (max-width: 800px) {
+    .game-content {
+        grid-template-columns: 1fr;
+    }
+
+    .game-interaction {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .game-interaction {
+        grid-template-columns: 1fr;
+    }
+
+    .characters {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

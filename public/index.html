@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guess Who by Mia Heffler</title>
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Guess Who</h1>
+            <div class="game-controls">
+                <button id="create-game">Create Game</button>
+
+                <button id="join-game">Join Game</button>
+
+                <label for="series-select">
+                    Select the group of characters you would like to play with!
+                </label>
+                <select id="series-select">
+                    <option value="heartbreak-high">Heartbreak High</option>
+                    <option value="my-little-pony">My Little Pony</option>
+                    <option value="ever-after-high">Ever After High</option>
+                    <option value="monster-high">Monster High</option>
+                </select>
+            </div>
+        </header>
+        <main>
+            <section class="my-character">
+
+                <h2>My Character</h2>
+                <p>Only you should see this character!</p>
+                <div class="character-card">
+                    <img src="images/placeholder.jpg" alt="Mystery Character">
+                    <h3 id="my-character-name">Character Name</h3>
+                </div>
+                <p>Your opponent is trying to guess this character.</p>
+            </section>
+            <section class="game-content">
+                <section class="board">
+                    <h2>Character Board</h2>
+                    <div class="board-container">
+                        <div class="characters">
+                            <div class="profile-card">
+                                <h3 class="character-name">Jane Doe</h3>
+                                <div class="card-inner">
+                                    <div class="front-face">
+                                        <img src="images/frontofcard.jpg" alt="Jane's picture">
+                                    </div>
+
+                                    <div class="back-face">
+                                        <img src="images/backofcard.jpg" alt="Back of Card">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="game-interaction">
+                    <div class="question-area">
+                        <h3>Ask a Question:</h3>
+                    </div>
+
+                    <div class="guess-area">
+                        <h3>Make a Guess</h3>
+                        <input
+                            type="text"
+                            id="guessed-character"
+                            placeholder="Enter a character's name"
+                        >
+                        <button id="guess-button">Guess!</button>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <p>Created by Mia Heffler 2026</p>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>
