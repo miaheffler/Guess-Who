@@ -1,0 +1,227 @@
+[
+    {
+        "id": 1,
+        "name": "Abbey Bominable",
+        "image": "/images/ever-after-high/abbey.jpeg",
+        "hairColor": ["white, blue, purple, pink"],
+        "eyeColor": "purple",
+        "accessories": ["necklace, earrings"],
+        "species": "yeti"
+    },
+    {
+        "id": 2,
+        "name": "Clawdeen Wolf",
+        "image": "/images/ever-after-high/clawdeen.jpeg",
+        "hairColor": "brown",
+        "eyeColor": "yellow",
+        "accessories": ["necklace, earrings"],
+        "species": "werewolf"
+    },
+    {
+        "id": 3,
+        "name": "Cleo de Nile",
+        "image": "/images/ever-after-high/cleo.jpeg",
+        "hairColor": ["black, brown, gold"],
+        "eyeColor": "blue",
+        "accessories": ["headband, earrings"],
+        "species": "mummy"
+    },
+    {
+        "id": 4,
+        "name": "Deuce Gorgon",
+        "image": "/images/ever-after-high/deuce.jpeg",
+        "hairColor": "green",
+        "eyeColor": "green",
+        "accessories": ["glasses, necklace"],
+        "species": "gorgon"
+    },
+    {
+        "id": 5,
+        "name": "Draculaura",
+        "image": "/images/ever-after-high/draculaura.jpeg",
+        "hairColor": ["pink, black"],
+        "eyeColor": "purple",
+        "accessories": ["earrings"],
+        "species": "vampire"
+    },
+    {
+        "id": 6,
+        "name": "Frankie Stein",
+        "image": "/images/ever-after-high/frankie.jpeg",
+        "hairColor": ["white, black"],
+        "eyeColor": ["blue, green"],
+        "accessories": ["tie, earrings"],
+        "species": "frankenmonster"
+    },
+    {
+        "id": 7,
+        "name": "Ghoulia Yelps",
+        "image": "/images/ever-after-high/ghoulia.jpeg",
+        "hairColor": "blue",
+        "eyeColor": "blue",
+        "accessories": ["glasses, earrings, necklace, headband"],
+        "species": "zombie"
+    },
+    {
+        "id": 8,
+        "name": "Lagoona Blue",
+        "image": "/images/ever-after-high/lagoona.jpeg",
+        "hairColor": ["blue, blonde"],
+        "eyeColor": "green",
+        "accessories": ["necklace, hood"],
+        "species": "sea monster"
+    },
+    {
+        "id": 9,
+        "name": "Catty Noir",
+        "image": "/images/ever-after-high/catty.jpeg",
+        "hairColor": "pink",
+        "eyeColor": "pink",
+        "accessories": ["necklace, earrings"],
+        "species": "werecat"
+    },
+    {
+        "id": 10,
+        "name": "Clawd Wolf",
+        "image": "/images/ever-after-high/clawd.jpeg",
+        "hairColor": "brown",
+        "eyeColor": "yellow",
+        "accessories": ["earrings"],
+        "species": "werewolf"
+    },
+    {
+        "id": 11,
+        "name": "Gigi Grant",
+        "image": "/images/ever-after-high/gigi.jpeg",
+        "hairColor": ["pink, gold"],
+        "eyeColor": "green",
+        "accessories": ["earrings"],
+        "species": "genie"
+    },
+    {
+        "id": 12,
+        "name": "Gil Webber",
+        "image": "/images/ever-after-high/gil.jpeg",
+        "hairColor": "blue",
+        "eyeColor": "white",
+        "accessories": ["tank"],
+        "species": "river monster"
+    },
+    {
+        "id": 13,
+        "name": "Heath Burns",
+        "image": "/images/ever-after-high/heath.jpeg",
+        "hairColor": ["red, orange"],
+        "eyeColor": "red",
+        "accessories": [],
+        "species": "fire elemental"
+    },
+    {
+        "id": 14,
+        "name": "Holt Hyde",
+        "image": "/images/ever-after-high/holt.jpeg",
+        "hairColor": ["red, orange"],
+        "eyeColor": "orange",
+        "accessories": ["headphones"],
+        "species": "hyde, fire elemental"
+    },
+    {
+        "id": 15,
+        "name": "Howleen Wolf",
+        "image": "/images/ever-after-high/howleen.jpeg",
+        "hairColor": "orange",
+        "eyeColor": "orange",
+        "accessories": ["necklace, earrings"],
+        "species": "werewolf"
+    },
+    {
+        "id": 16,
+        "name": "Jackson Jekyll",
+        "image": "/images/ever-after-high/jackson.jpeg",
+        "hairColor": ["black, yellow"],
+        "eyeColor": "blue",
+        "accessories": ["glasses, bowtie"],
+        "species": "human, fire elemental"
+    },
+    {
+        "id": 17,
+        "name": "Jinafire Long",
+        "image": "/images/ever-after-high/jinafire.jpeg",
+        "hairColor": ["green, black"],
+        "eyeColor": "green",
+        "accessories": ["hairpin, earrings"],
+        "species": "dragon"
+    },
+    {
+        "id": 18,
+        "name": "Johnny Spirit",
+        "image": "/images/ever-after-high/johnny.jpeg",
+        "hairColor": ["blue, black"],
+        "eyeColor": "blue",
+        "accessories": [],
+        "species": "ghost"
+    },
+    {
+        "id": 19,
+        "name": "Operetta",
+        "image": "/images/ever-after-high/operetta.jpeg",
+        "hairColor": ["red, black"],
+        "eyeColor": "purple",
+        "accessories": ["masquerade mask, earrings"],
+        "species": "phantom"
+    },
+    {
+        "id": 20,
+        "name": "Robecca Steam",
+        "image": "/images/ever-after-high/robecca.jpeg",
+        "hairColor": ["blue, black"],
+        "eyeColor": "purple",
+        "accessories": ["goggles, earrings"],
+        "species": "robot"
+    },
+    {
+        "id": 21,
+        "name": "Rochelle Goyle",
+        "image": "/images/ever-after-high/rochelle.jpeg",
+        "hairColor": ["pink, blue"],
+        "eyeColor": "pink",
+        "accessories": ["necklace, earrings, headband"],
+        "species": "gargoyle"
+    },
+    {
+        "id": 22,
+        "name": "Spectra Vondergeist",
+        "image": "/images/ever-after-high/spectra.jpeg",
+        "hairColor": ["purple, pink"],
+        "eyeColor": "white",
+        "accessories": ["necklace, earrings"],
+        "species": "ghost"
+    },
+    {
+        "id": 23,
+        "name": "Toralei Stripe",
+        "image": "/images/ever-after-high/toralei.jpeg",
+        "hairColor": ["red, orange, black"],
+        "eyeColor": "green",
+        "accessories": ["bandana, earrings"],
+        "species": "werecat"
+    },
+    {
+        "id": 24,
+        "name": "Twyla Boogeyman",
+        "image": "/images/ever-after-high/twyla.jpeg",
+        "hairColor": ["purple, green, blue"],
+        "eyeColor": "purple",
+        "accessories": [],
+        "species": "boogeyman"
+    },
+    {
+        "id": 25,
+        "name": "Venus McFlytrap",
+        "image": "/images/ever-after-high/venus.jpeg",
+        "hairColor": ["green, pink"],
+        "eyeColor": "blue",
+        "accessories": ["necklace"],
+        "species": "plant monster"
+    }
+]

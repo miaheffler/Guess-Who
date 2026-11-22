@@ -1,0 +1,245 @@
+[
+    {
+        "id": 1,
+        "name": "Alistair Wonderland",
+        "image": "/images/ever-after-high/alistair.jpeg",
+        "hairColor": "blonde",
+        "eyeColor": "blue",
+        "accessories": ["necklace"],
+        "royalORrebel": "royal"
+    },
+    {
+        "id": 2,
+        "name": "Apple White",
+        "image": "/images/ever-after-high/apple.jpeg",
+        "hairColor": "blonde",
+        "eyeColor": "blue",
+        "accessories": ["necklace, earrings, crown"],
+        "royalORrebel": "royal"
+    },
+    {
+        "id": 3,
+        "name": "Ashlynn Ella",
+        "image": "/images/ever-after-high/ashlynn.jpeg",
+        "hairColor": "red",
+        "eyeColor": "green",
+        "accessories": ["necklace, earrings, headband"],
+        "royalORrebel": "rebel"
+    },
+    {
+        "id": 4,
+        "name": "Blondie Locks",
+        "image": "/images/ever-after-high/blondie.jpeg",
+        "hairColor": "blonde",
+        "eyeColor": "blue",
+        "accessories": ["earrings, headband"],
+        "royalORrebel": "royal"
+    },
+    {
+        "id": 5,
+        "name": "Briar Beauty",
+        "image": "/images/ever-after-high/briar.jpeg",
+        "hairColor": "brown",
+        "eyeColor": "brown",
+        "accessories": ["earrings, sunglasses"],
+        "royalORrebel": "rebel"
+    },
+    {
+        "id": 6,
+        "name": "Bunny Blanc",
+        "image": "/images/ever-after-high/bunny.jpeg",
+        "hairColor": "white",
+        "eyeColor": "blue",
+        "accessories": ["headband"],
+        "royalORrebel": "royal"
+    },
+    {
+        "id": 7,
+        "name": "C.A. Cupid",
+        "image": "/images/ever-after-high/cupid.jpeg",
+        "hairColor": "pink",
+        "eyeColor": "blue",
+        "accessories": ["necklace, earrings, headband"],
+        "royalORrebel": "rebel"
+    },
+    {
+        "id": 8,
+        "name": "Cedar Wood",
+        "image": "/images/ever-after-high/cedar.jpeg",
+        "hairColor": "brown",
+        "eyeColor": "brown",
+        "accessories": ["earrings, headband"],
+        "royalORrebel": "rebel"
+    },
+    {
+        "id": 9,
+        "name": "Cerise Hood",
+        "image": "/images/ever-after-high/cerise.jpeg",
+        "hairColor": ["brown, white"],
+        "eyeColor": "grey",
+        "accessories": ["hood"],
+        "royalORrebel": "rebel"
+    },
+    {
+        "id": 10,
+        "name": "Daring Charming",
+        "image": "/images/ever-after-high/daring.jpeg",
+        "hairColor": "blonde",
+        "eyeColor": "blue",
+        "accessories": ["crown"],
+        "royalORrebel": "royal"
+    },
+    {
+        "id": 11,
+        "name": "Darling Charming",
+        "image": "/images/ever-after-high/darling.jpeg",
+        "hairColor": ["blonde, blue"],
+        "eyeColor": "blue",
+        "accessories": ["barrette, crown, earrings"],
+        "royalORrebel": "rebel"
+    },
+    {
+        "id": 12,
+        "name": "Dexter Charming",
+        "image": "/images/ever-after-high/ashlynn.jpeg",
+        "hairColor": "brown",
+        "eyeColor": "blue",
+        "accessories": ["glasses, crown"],
+        "royalORrebel": "royal"
+    },
+    {
+        "id": 13,
+        "name": "Duchess Swan",
+        "image": "/images/ever-after-high/duchess.jpeg",
+        "hairColor": ["white, black, purple"],
+        "eyeColor": "brown",
+        "accessories": ["necklace, earrings, headband"],
+        "royalORrebel": "royal"
+    },
+    {
+        "id": 14,
+        "name": "Faybelle Thorn",
+        "image": "/images/ever-after-high/faybelle.jpeg",
+        "hairColor": ["white, green"],
+        "eyeColor": "grey",
+        "accessories": ["barrette, earrings"],
+        "royalORrebel": "royal"
+    },
+    {
+        "id": 15,
+        "name": "Ginger Breadhouse",
+        "image": "/images/ever-after-high/ginger.jpeg",
+        "hairColor": "pink",
+        "eyeColor": "brown",
+        "accessories": ["glasses, headband"],
+        "royalORrebel": "rebel"
+    },
+    {
+        "id": 16,
+        "name": "Holly O'Hair",
+        "image": "/images/ever-after-high/holly.jpeg",
+        "hairColor": "red",
+        "eyeColor": "green",
+        "accessories": ["crown, earrings, necklace"],
+        "royalORrebel": "royal"
+    },
+    {
+        "id": 17,
+        "name": "Hopper Croakington II",
+        "image": "/images/ever-after-high/hopper.jpeg",
+        "hairColor": "red",
+        "eyeColor": "green",
+        "accessories": ["crown, bowtie"],
+        "royalORrebel": "royal"
+    },
+    {
+        "id": 18,
+        "name": "Humphrey Dumpty",
+        "image": "/images/ever-after-high/humphrey.jpeg",
+        "hairColor": "blonde",
+        "eyeColor": "blue",
+        "accessories": ["crown, glasses, bowtie"],
+        "royalORrebel": "rebel"
+    }, 
+    {
+        "id": 19,
+        "name": "Hunter Huntsman",
+        "image": "/images/ever-after-high/hunter.jpeg",
+        "hairColor": "brown",
+        "eyeColor": "brown",
+        "accessories": [],
+        "royalORrebel": "rebel"
+    },
+    {
+        "id": 20,
+        "name": "Kitty Cheshire",
+        "image": "/images/ever-after-high/kitty.jpeg",
+        "hairColor": "purple",
+        "eyeColor": "blue",
+        "accessories": ["hat, earrings"],
+        "royalORrebel": "N/A"
+    },
+    {
+        "id": 21,
+        "name": "Lizzie Hearts",
+        "image": "/images/ever-after-high/lizzie.jpeg",
+        "hairColor": ["red, black"],
+        "eyeColor": "green",
+        "accessories": ["crown, earrings"],
+        "royalORrebel": "royal"
+    },
+    {
+        "id": 22,
+        "name": "Madeline Hatter",
+        "image": "/images/ever-after-high/madeline.jpeg",
+        "hairColor": ["blue, purple"],
+        "eyeColor": "blue",
+        "accessories": ["hat, earrings, necklace"],
+        "royalORrebel": "rebel"
+    },
+    {
+        "id": 23,
+        "name": "Melody Piper",
+        "image": "/images/ever-after-high/melody.jpeg",
+        "hairColor": ["white, purple"],
+        "eyeColor": "brown",
+        "accessories": ["headphones, necklace"],
+        "royalORrebel": "rebel"
+    },
+    {
+        "id": 24,
+        "name": "Poppy O'Hair",
+        "image": "/images/ever-after-high/poppy.jpeg",
+        "hairColor": ["purple, red"],
+        "eyeColor": "green",
+        "accessories": ["headband, earrings, scarf"],
+        "royalORrebel": "roybel"
+    },
+    {
+        "id": 25,
+        "name": "Raven Queen",
+        "image": "/images/ever-after-high/raven.jpeg",
+        "hairColor": "purple",
+        "eyeColor": "purple",
+        "accessories": ["headband"],
+        "royalORrebel": "rebel"
+    },
+    {
+        "id": 26,
+        "name": "Rosabella Beauty",
+        "image": "/images/ever-after-high/rosabella.jpeg",
+        "hairColor": ["red, brown"],
+        "eyeColor": "brown",
+        "accessories": ["glasses, crown"],
+        "royalORrebel": "rebel"
+    },
+    {
+        "id": 27,
+        "name": "Sparrow Hood",
+        "image": "/images/ever-after-high/sparrow.jpeg",
+        "hairColor": "red",
+        "eyeColor": "green",
+        "accessories": ["hat, earrings"],
+        "royalORrebel": "rebel"
+    }
+]
